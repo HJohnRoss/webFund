@@ -15,14 +15,14 @@
   width: 70px;
 }
 
-table {
-  border: 2px black solid;
-}
-
 .contact-me {
   padding: 10px;
 }
 
 #flex-data {
   display: flex;
+}
+
+table {
+  border: 2px black solid;
 }
