@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#profile {
+  width: 300px;
+}
+
+.img-icon {
+  width: 30px;
+}
+
+.img-link {
+  width: 70px;
+}
+
+table {
+  border: 2px black solid;
+}
+
+.contact-me {
+  padding: 10px;
+}
+
+#flex-data {
+  display: flex;
+}
