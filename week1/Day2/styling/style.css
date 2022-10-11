@@ -1,0 +1,33 @@
+* {
+  padding: 0px;
+  margin: 10px;
+  font-family:cursive;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  font-size: 60pt;
+  padding: 10px 20px;
+}
+
+span {
+  color: cyan;
+}
+
+h2 {
+  background-color: purple;
+  color: white;
+  font-size: 45pt;
+  text-align: center;
+  padding: 10px;
+}
+
+h3 {
+  background-color: lightskyblue;
+  color: black;
+  text-decoration: underline;
+  font-size: 30pt;
+  text-align: end;
+  padding: 10px;
+}
