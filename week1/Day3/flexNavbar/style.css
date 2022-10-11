@@ -1,0 +1,40 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title {
+  color: #FFFFFF;
+  margin: 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 25%;
+}
+
+.active {
+  color: #FDFDFD;
+}
+
+a {
+  color: #B6B6B6;
+  text-decoration: none;;
+}
+
+.btn 
+  {
+    background-color: #17A2B8;
+    color: white;
+    border: 3px black solid;
+    box-shadow: 3px 3px 0px black;
+    align-items: center;
+  }
