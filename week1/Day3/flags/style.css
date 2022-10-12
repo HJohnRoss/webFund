@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: gray;
+}
+
+#flex-images {
+  display: flex;
+}
+
+.margin-page {
+  margin: 20px;
+}
+
+/* =============== JAPAN FLAG ============= */
+
+.flag-japan {
+  background-color: white;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-japan {
+  background-color: #BD0029;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+/* ==================== GERMANY FLAG =============== */
+
+.flag-germany {
+  width: 500px;
+  height: 300px;
+}
+
+.germany-black {
+  background-color: #000000;
+  height: 33%;
+}
+
+.germany-red {
+  background-color: #D20101;
+  height: 33%;
+}
+
+.germany-gold {
+  background-color: #F2C400;
+  height: 33%;
+}
+
+/* ========================== LEBANESE FLAG ========================= */
+
+.lebenese-flag {
+  background-color: #ED1E27;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.lebenese-flag img {
+  height: 100%;
+  background-color: white;
+}
+
+.lebenese-white {
+  background-color: white;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* ========================= PIRATE FLAG =========================== */
+
+.pirate-flag {
+  background-color: black;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pirate-flag img {
+  background-color: black;
+  height: 80%;
+}
