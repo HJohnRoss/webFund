@@ -16,7 +16,7 @@ h1 {
 #column-1 {
   background-color: #52BEFA;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 40px;
 }
 
@@ -30,7 +30,7 @@ h1 {
 #column-3 {
   background-color: #FCFCFF;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 40px;
 }
 
