@@ -19,9 +19,9 @@
   height: 300px;
   width: 200px;
   background-color: blue;
-  display: inline-block;
   margin-top: 10px;
   margin-right: 46px;
+  display: inline-block;
 }
 
 .main {
