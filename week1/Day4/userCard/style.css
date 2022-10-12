@@ -1,8 +1,12 @@
 * {
   padding: 0px;
   margin: 0px;
+  font-family: 'Comic Neue', cursive;
   font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
+
+/* ========================= BOX ======================== */
 
 #flex-outer-box {
   display: flex;
@@ -11,37 +15,63 @@
 
 #outer-box {
   border: 4px #CCCCCC solid;
-  width: 50%;
-  height: 50%;
+  width: 40%;
   margin-top: 10px;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 
-#header {
+/* ========================= HEADER ========================= */
+
+#header-img {
   background-color: #17A2B8;
   height: 100px;
 }
 
-#header img {
+#header-img img {
   height: 100px;
-  position:absolute;
-  margin: 50px;
+  position: absolute;
+  margin: 43px;
+  padding: 3px;
+  background-color: white;
+  border-radius: 100%;
+  border: 3px solid #CCCCCC;
 }
 
-.padding-header {
-  margin: 60px;
-}
+/* ======================== MAIN CONTENT ======================= */
 
-.img-icon {
-  height: 20px;
+.profile-info {
+  margin: 60px 0px 15px 50px;
 }
 
 .flex-data {
   display: flex;
   align-items: center;
   gap: 10px;
+  padding-bottom: 10px;
 }
 
-.padding-body {
+.flex-data img {
+  height: 20px;
+}
+
+.profile-body {
   margin-left: 50px;
+}
+
+/* ======================== FOOTER =========================== */
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.footer img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.footer a {
+  color: #2B78E4;
 }
