@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John's Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto:ital,wght@0,300;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- =================== HEADER =================== -->
+  <div class="page-header">
+    <ul class="header-list">
+      <li>
+        <h1>Profile</h1>
+      </li>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a id="current-page" href="#">My Profile</a>
+      </li>
+      <li>
+        <a href="#">Find Connections</a>
+      </li>
+    </ul>
+    <button id="sign-out">Sign Out</button>
+  </div>
+
+  <!-- ==================== PROFILE PAGE =================== -->
+  <div class="flex-pages">
+    <div class="flex-horizontal">
+      <div id="profile-page">
+        <div id="profile-header">
+          <img src="./Images/Thorfinn.webp" alt="Thorfinn">
+        </div>
+        <div id="profile-content">
+          <h1>John Ross</h1>
+          <ul>
+            <li>
+              <img class="icon" src="./Images/map-marker.png" alt="map marker">
+            </li>
+            <li>Las Vegas</li>
+          </ul>
+          <p class="margin-">Future Developer | Comma Catcher | Gamer</p>
+          <p>I do a alot when I am bored.</p>
+          <ul>
+            <li>
+              <img class="icon" src="./Images/gear.png" alt="gears">
+            </li>
+            <li>
+              <a class="link-color" href="#">edit profile</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ==================  EDUCATION =========================== -->
+      <div id="education-page">
+        <div id="education-header">
+          <h2>Education</h2>
+        </div>
+        <div id="education-content">
+          <h3>Coding Dojo - Full Stack Bootcamp</h3>
+          <p>Oct 2022 - Feb 2023</p>
+          <h3>High School Diploma</h3>
+          <p>Aug 2016 - Feb 2020</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== FRIEND REQUESTS ==================== -->
+
+    <div class="flex-horizontal">
+      <div id="request-page">
+        <div class="header">
+          <ul>
+            <li class="number-border">2</li>
+            <li>Connection Requests</li>
+          </ul>
+        </div>
+        <table id="friend-requests">
+          <tr>
+            <td>
+              <p><img class="profile-img" src="./Images/adrien-s.jpg" alt=""></p>
+            </td>
+            <td>Todd E</td>
+            <td>
+              <img class="profile-img" src="./Images/accept-circle.png" alt="">
+            </td>
+            <td>
+              <img class="profile-img" src="./Images/close-circle.png" alt="">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img class="profile-img" src="./Images/jane-m.jpg" alt="">
+            </td>
+            <td>Phil K</td>
+            <td>
+              <img class="profile-img" src="./Images/accept-circle.png" alt="">
+            </td>
+            <td>
+              <img class="profile-img" src="./Images/close-circle.png" alt="">
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- ===================== YOUR CONNECTION ===================== -->
+      <div id="connection-page">
+        <div class="header">
+          <ul>
+            <li class="number-border">500+</li>
+            <li>Your Connections</li>
+          </ul>
+        </div>
+        <table id="connection-table">
+          <tr>
+            <td>
+              <img class="profile-img" src="./Images/adrien-s.jpg" alt="">
+            </td>
+            <td>Adrien D</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="profile-img" src="./Images/alayne-s.jpg" alt="">
+            </td>
+            <td>Aralyn S</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="profile-img" src="./Images/arry-s.jpg" alt="">
+            </td>
+            <td>Arry S</td>
+          </tr>
+          <tr>
+            <td>
+              <img class="profile-img" src="./Images/phil-s.jpg" alt="">
+            </td>
+            <td>Phil S</td>
+          </tr>
+        </table>
+        <h3><a class="link-color" href="#">Veiw More</a></h3>
+      </div>
+    </div>
+</body>
+
+</html>
