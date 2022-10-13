@@ -5,6 +5,8 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/* ================== GENERAL USE ===================== */
+
 body {
   background-image: url("./Images/background.gif");
   background-size: stretch;
