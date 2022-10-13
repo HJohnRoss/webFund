@@ -22,6 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-top: 150px;
 }
 
 /* ================== HEADER =================== */
@@ -44,8 +45,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-bottom: 50px;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0px;
 }
 
@@ -73,11 +74,11 @@ body {
 }
 
 #profile-header {
-  background-color: #1b263b;
+  background-color: #1D3557;
   height: 100px;
 }
 
-#profile-header img {
+.profile-picture {
   border-radius: 50%;
   width: 100px;
   margin-top: 50px;
