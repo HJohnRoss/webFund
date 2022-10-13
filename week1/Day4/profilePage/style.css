@@ -19,8 +19,6 @@ body {
 }
 
 .flex-horizontal {
-  display: flex;
-  flex-direction: column;
   gap: 20px;
   margin-top: 150px;
 }
