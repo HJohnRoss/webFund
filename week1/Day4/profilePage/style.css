@@ -38,6 +38,7 @@ body {
 }
 
 .page-header {
+  background-color: rgba(22, 41, 64, 70%);
   color: #BAFBFF;
   height: 100px;
   display: flex;
