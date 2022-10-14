@@ -7,7 +7,6 @@
 body {
   background-image: url("./Images/background.gif");
   background-repeat: no-repeat;
-  background-size: fill;
 }
 
 #outer-box {
