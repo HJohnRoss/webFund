@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("./Images/background.gif");
+}
+
+#outer-box {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding-top: 150px;
+  opacity: 90%;
+}
+
+/* ================== GENERAL =============== */
+
+.border-style1 {
+  width: 600px;
+  border: 5px solid #CCCCCC;
+  background-color: lightslategray;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.border-style2 {
+  width: 350px;
+  border: 5px solid #CCCCCC;
+  background-color: lightslategray;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.header-main {
+  background-color: #333333;
+  color: #F6F6F6;
+  padding: 30px;
+}
+
+/* ================= NAVBAR ================= */
+
+#nav-style {
+  background-color: rgba(22, 41, 64, 70%);
+  color: #CACACA;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+}
+
+#nav-style ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 35%;
+}
+
+#nav-style a {
+  color: #B5B5B5;
+  text-decoration: none;
+}
+
+#nav-style span,
+h1 {
+  color: #FEFEFE;
+}
+
+#nav-style button {
+  background-color: #17A2B8;
+  color: #FCFDFD;
+  width: 90px;
+  height: 30px;
+  box-shadow: 3px 3px 5px black;
+}
+
+/* ====================== PROFILE ====================== */
+
+#profile-background-color {
+  background-color: #17A2B8;
+  height: 100px;
+}
+
+#profile-background-color img {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 3px;
+  border: 2px solid #CCCCCC;
+  margin: 40px;
+}
+
+#profile-data {
+  margin: 50px 0px 10px 40px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icons img {
+  height: 30px;
+}
+
+.icons a {
+  color: #2B78E4;
+}
+
+/* ======================= EDUCATION ======================== */
+
+.education-data {
+  padding: 15px;
+}
+
+.education-data p {
+  padding: 5px 15px;
+}
+
+/* ======================= REQUESTS ========================= */
+
+.flex-requests {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.flex-requests img {
+  height: 60px;
+  border-radius: 50%;
+}
+
+.flex-requests p {
+  margin-left: 10px;
+}
+
+/* ====================== CONNECTIONS ========================== */
+
+.connections {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+.connections img {
+  height: 60px;
+  border-radius: 50%;
+}
+
+.top-border {
+  border-top: 5px solid #CCCCCC;
+  padding: 20px;
+}
+
+.top-border a {
+  color: #2B78E4;
+}
