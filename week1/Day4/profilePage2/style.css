@@ -145,6 +145,7 @@ h1 {
 
 .header-main span{
   background-color: #CCCCCC;
+  color: black;
   padding: 10px 15px;
   border-radius: 50%;
 }
