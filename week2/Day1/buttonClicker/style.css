@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#outer-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* ======================== GENERAL ======================== */
+
+.justify {
+  display: flex;
+  justify-content: center;
+}
+
+.margin-text {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 30%;
+}
+
+/* ======================== NAVBAR ======================== */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #CCCCCC;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+#navbar input {
+  width: 300px;
+  height: 30px;
+  border: 2px solid black;
+}
+
+#navbar button {
+  background-color: #2B78E4;
+  border: 2px solid black;
+  color: white;
+  width: 85px;
+  height: 35px;
+  box-shadow: 5px 5px 5px black;
+}
+
+/* ======================== Content ======================== */
+
+.content {
+  border: 5px solid black;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: larger;
+}
+
+.content h3,
+h4 {
+  margin-bottom: 15px;
+}
+
+.content button {
+  background-color: #FFD966;
+  border: 5px solid black;
+  box-shadow: 10px 10px 10px black;
+  margin: 20px;
+  padding: 15px 20px;
+}
+
+.content p {
+  font-size: x-large;
+}
+
+/* ======================== DOJONARY ======================== */
+
+#dojonary {
+  border: 5px solid black;
+  width: 250px;
+}
+
+#dojonary span {
+  font-weight: bold;
+}
+
+#dojonary-text {
+  margin: 19px;
+}
+
+.button-2 {
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.button-2 button {
+  background-color: #93C47C;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px black;
+  font-weight: bolder;
+  padding: 15px 60px;
+}

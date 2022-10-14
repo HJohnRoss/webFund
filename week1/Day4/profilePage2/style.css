@@ -6,7 +6,9 @@
 
 body {
   background-image: url("./Images/background.gif");
-  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
 }
 
 #outer-box {
@@ -39,6 +41,10 @@ body {
   background-color: #333333;
   color: #F6F6F6;
   padding: 30px;
+}
+
+.justify {
+  justify-content: space-between;
 }
 
 /* ================= NAVBAR ================= */
