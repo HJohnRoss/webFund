@@ -25,7 +25,7 @@ var crustType = [
 var sauceType = [
   "Tomato", "Spicy Red",
   "Peppery Red", "Sweet",
-  "Pesto Sauce", "Alfredo",
+  "Pesto", "Alfredo",
   "BBQ", "Ranch",
   "Mayonnaise"
 ];
@@ -56,7 +56,7 @@ function randomPizza(crustType, sauceType, cheeseType, toppings) {
   cheeseType = cheeseType[Math.floor(Math.random() * cheeseType.length)];
   pizza.push(cheeseType + " Cheese");
   toppings = toppings[Math.floor(Math.random() * toppings.length)];
-  pizza.push(toppings)
+  pizza.push(toppings + " Topping")
 
   console.log(pizza)
 }
