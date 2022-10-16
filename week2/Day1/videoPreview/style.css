@@ -123,3 +123,9 @@ body {
     font-size: 1.2rem;
     font-weight: 900;
 }
+
+#main-vid {
+  width: 720px;
+  height: 400px;
+  background-color: black;
+}

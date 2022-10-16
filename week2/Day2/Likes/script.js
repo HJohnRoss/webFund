@@ -26,21 +26,25 @@
 
 var likes = [9, 12, 9];
 
-function nielLike() {
+function nielLike(element) {
+  element.classList.add("btn");
   var neil = document.querySelector("#likes1");
   likes[0]++;
   neil.innerText = likes[0] + " like(s)";
   console.log(neilCount);
 }
 
-function nicholeLike() {
+function nicholeLike(element) {
+  element.classList.add("btn");
   var nichole = document.querySelector("#likes2");
   likes[1]++;
   nichole.innerText = likes[1] + " like(s)";
   console.log(nicholeCount);
 }
 
-function jimLike() {
+function jimLike(element) {
+  element.classList.add("btn");
+  
   var jim = document.querySelector("#likes3");
   likes[2]++;
   jim.innerText = likes[2] + " like(s)";
