@@ -40,16 +40,17 @@
           <img src="./Images/Thorfinn.webp" alt="">
         </div>
         <div class="profile-content">
-          <h1>John Ross</h1>
+          <h1 class="name">John Ross</h1>
           <div class="profile-flex">
             <img src="./Images/map-marker.png" alt="">
             <p>Las Vegas</p>
           </div>
-          <p>Future Developer | Comma Catcher | Problem Solver</p>
-          <p>Master of catching COMMAS,</p>
+          <p>Future Developer | Comma Catcher | Problem Solver<br>
+            Master of catching COMMAS,
+          </p>
           <div class="profile-flex">
             <img src="./Images/gear.png" alt="">
-            <a href="#">edit profile</a>
+            <a onclick="editLink()" href="#">edit profile</a>
           </div>
         </div>
       </div>
@@ -74,26 +75,26 @@
     <div>
       <div class="border-2">
         <div class="header">
-          <h2><span>2</span> Connection Requests</h2>
+          <h2><span id="request-change">2</span> Connection Requests</h2>
         </div>
-        <div class="requests-flex">
+        <div id="requests-1">
           <div class="requests-flex">
-            <img src="./Images/phil-s.jpg" alt="">
+            <img src="./Images/phil-s.jpg" alt="pfp-phil">
             <p>Phil S</p>
           </div>
           <div class="requests-flex">
-            <img src="./Images/accept-circle.png" alt="">
-            <img src="./Images/close-circle.png" alt="">
+            <img onclick="acceptRequest1()" src="./Images/accept-circle.png" alt="accept">
+            <img onclick="declineRequest1()" src="./Images/close-circle.png" alt="decline">
           </div>
         </div>
-        <div class="requests-flex">
+        <div id="requests-2">
           <div class="requests-flex">
             <img src="./Images/todd-s.jpg" alt="">
             <p>Todd E</p>
           </div>
           <div class="requests-flex">
-            <img src="./Images/accept-circle.png" alt="">
-            <img src="./Images/close-circle.png" alt="">
+            <img onclick="acceptRequest2()" src="./Images/accept-circle.png" alt="accept">
+            <img onclick="declineRequest2()" src="./Images/close-circle.png" alt="decline">
           </div>
         </div>
       </div>
@@ -102,22 +103,22 @@
 
       <div class="border-2">
         <div class="header">
-          <h2><span>418</span> Your Connections</h2>
+          <h2><span id="connection-change">418</span> Your Connections</h2>
         </div>
         <div class="connections">
-          <img src="./Images/adrien-s.jpg" alt="">
+          <img src="./Images/adrien-s.jpg" alt="adrien-pfp">
           <p>Adrien D</p>
         </div>
         <div class="connections">
-          <img src="./Images/anne-s.jpg" alt="">
+          <img src="./Images/anne-s.jpg" alt="anne-pfp">
           <p>Anne J</p>
         </div>
         <div class="connections">
-          <img src="./Images/alayne-s.jpg" alt="">
+          <img src="./Images/alayne-s.jpg" alt="alayne-pfp">
           <p>Alayne T</p>
         </div>
         <div class="connections connections-border">
-          <img src="./Images/arry-s.jpg" alt="">
+          <img src="./Images/arry-s.jpg" alt="arry-s">
           <p>Arry S</p>
         </div>
         <div class="connections-link">
@@ -126,7 +127,7 @@
       </div>
     </div>
   </div>
+  <script src="./script.js"></script>
 </body>
-<script src="./script.js"></script>
 
 </html>
