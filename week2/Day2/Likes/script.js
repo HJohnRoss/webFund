@@ -29,7 +29,7 @@ var likes = [9, 12, 9];
 function nielLike(element) {
   element.classList.add("btn");
   var neil = document.querySelector("#likes1");
-  likes[0]++;
+  likes[0];
   neil.innerText = likes[0] + " like(s)";
   console.log(neilCount);
 }
@@ -44,7 +44,6 @@ function nicholeLike(element) {
 
 function jimLike(element) {
   element.classList.add("btn");
-  
   var jim = document.querySelector("#likes3");
   likes[2]++;
   jim.innerText = likes[2] + " like(s)";

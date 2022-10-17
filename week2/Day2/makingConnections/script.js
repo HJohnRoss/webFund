@@ -8,18 +8,14 @@ function editLink() {
 
 // ==================== REQUESTS =====================
 
-var requestNum = 2;
-var connectionNum = 418;
-
-function acceptRequest1() {
+function acceptRequest1(sdfdf, afawfa) {
   var div = document.getElementById("requests-1")
   var requestText = document.getElementById("request-change")
   var connectionText = document.getElementById("connection-change")
-  requestNum--
-  connectionNum++
+  requestText.innerText++
+  connectionText.innerText++
+  console.log(requestText)
   div.remove()
-  requestText.innerText = requestNum
-  connectionText.innerText = connectionNum
 }
 
 function acceptRequest2() {
@@ -29,8 +25,6 @@ function acceptRequest2() {
   requestNum--
   connectionNum++
   div.remove()
-  requestText.innerText = requestNum
-  connectionText.innerText = connectionNum
 }
 
 function declineRequest1() {
@@ -38,7 +32,6 @@ function declineRequest1() {
   var requestText = document.getElementById("request-change")
   requestNum--
   div.remove()
-  requestText.innerText = requestNum
 }
 
 function declineRequest2() {
@@ -46,5 +39,4 @@ function declineRequest2() {
   var requestText = document.getElementById("request-change")
   requestNum--
   div.remove()
-  requestText.innerText = requestNum
 }
