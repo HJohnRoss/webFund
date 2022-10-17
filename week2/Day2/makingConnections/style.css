@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-image: url(./Images/background.gif);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+
+/* ================== GENERAL USE ================== */
+
+.header {
+  background-color: #333333;
+  padding: 20px;
+  color: #E3E3E3;
+}
+
+.border-1 {
+  border: 2px solid black;
+  width: 600px;
+  margin-bottom: 30px;
+  background-color: gray;
+}
+
+.border-2 {
+  border: 2px solid black;
+  width: 350px;
+  margin-bottom: 30px;
+  background-color: gray;
+}
+
+.border-2 span {
+  padding: 5px 12px;
+  border-radius: 50%;
+  background-color: #CCCCCC;
+  color: #3C3C3C;
+}
+
+#flex-page {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: #3B83E6;
+}
+
+/* ================== NAVBAR ================== */
+
+#nav-header {
+  padding: 20px;
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+#nav-header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 24%;
+  align-items: center;
+}
+
+#nav-header a {
+  color: #B9B9B9;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#nav-header span {
+  color: #E9E9E9;
+}
+
+#nav-header button {
+  background-color: #17A2B8;
+  color: #EFF8F9;
+  padding: 8px 15px;
+  box-shadow: 4px 4px black;
+}
+
+/* ================== PROFILE ================== */
+
+#profile-header {
+  height: 100px;
+  background-color: #17A2B8;
+}
+
+#profile-header img {
+  width: 80px;
+  border-radius: 50%;
+  margin: 55px 20px;
+}
+
+.profile-flex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0px;
+}
+
+.profile-flex img {
+  width: 20px;
+}
+
+.profile-content {
+  margin: 35px 20px;
+}
+
+/* ================== EDUCATION ================== */
+
+#education {
+  margin: 20px;
+}
+
+#education p {
+  color: black;
+  padding-left: 10px;
+}
+
+/* ================== REQUESTS ================== */
+
+.requests-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  gap: 5px;
+}
+
+.requests-flex img {
+  border-radius: 50%;
+  width: 60px;
+}
+
+/* ================== CONNECTIONS ================== */
+
+
+.connections {
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  align-items: center;
+}
+
+.connections img {
+  border-radius: 50%;
+  width: 60px;
+}
+
+.connections-link {
+  padding: 5px;
+}
+
+.connections-border {
+  border-bottom: 2px solid black;
+}

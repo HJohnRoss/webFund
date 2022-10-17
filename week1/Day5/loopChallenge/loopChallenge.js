@@ -8,8 +8,10 @@ for (var i = 1; i < 21; i++) {
 
 // 2
 
-for (var i = 100; i >= 0; i -= 3) {
-  console.log(i);
+for (var i = 100; i > 0; i--) {
+  if  (i % 3 == 0) {
+    console.log(i)
+  }
 }
 
 //  3

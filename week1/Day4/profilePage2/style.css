@@ -70,6 +70,7 @@ body {
 
 #nav-style a {
   color: #B5B5B5;
+  cursor: pointer;
   text-decoration: none;
 }
 
