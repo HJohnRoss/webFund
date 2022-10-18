@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main-width {
+  width: 70%;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+/*  ============================ GENERAl ============================ */
+
+.flex-items {
+  display: flex;
+}
+
+.center-content {
+  justify-content: center;
+}
+
+.space-content {
+  justify-content: space-around;
+}
+
+.main-border {
+  border: 2px solid black;
+}
+
+.between-content {
+  justify-content: space-between;
+}
+
+/* ============================ NAVBAR ============================ */
+
+#navbar {
+  background-color: gray;
+  padding: 40px;
+  justify-content: space-evenly;
+  color: #FFFFFF;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  width: 28%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ============================ SUB HEADER ============================ */
+
+#bottom-border {
+  border-bottom: 5px solid black;
+}
+
+/* ============================ MAIN CONTENT ============================ */
+
+.weather-panels {
+  background-color: #CCCCCC;
+  padding: 30px;
+  text-align: center;
+}
+
+.weather-panels img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+/* ============================ REMOVABLE FOOTER ============================ */
+
+#popup {
+  height: 300px;
+}
+
+#popup a {
+  color: #25669F;
+}

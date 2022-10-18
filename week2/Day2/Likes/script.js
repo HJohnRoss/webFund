@@ -29,9 +29,9 @@ var likes = [9, 12, 9];
 function nielLike(element) {
   element.classList.add("btn");
   var neil = document.querySelector("#likes1");
-  likes[0];
+  likes[0]++;
   neil.innerText = likes[0] + " like(s)";
-  console.log(neilCount);
+  console.log(likes[0]);
 }
 
 function nicholeLike(element) {
@@ -39,7 +39,7 @@ function nicholeLike(element) {
   var nichole = document.querySelector("#likes2");
   likes[1]++;
   nichole.innerText = likes[1] + " like(s)";
-  console.log(nicholeCount);
+  console.log(likes[1]);
 }
 
 function jimLike(element) {
@@ -47,5 +47,5 @@ function jimLike(element) {
   var jim = document.querySelector("#likes3");
   likes[2]++;
   jim.innerText = likes[2] + " like(s)";
-  console.log(jimCount);
+  console.log(likes[3]);
 }

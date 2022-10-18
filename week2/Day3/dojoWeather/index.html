@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>DojoWeather</title>
+</head>
+
+<body>
+  <!-- ============================ NAVBAR ============================ -->
+  <div id="navbar" class="flex-items">
+    <h1>DojoWeather</h1>
+    <ul>
+      <li>
+        <a href="#">Burbank</a>
+      </li>
+      <li>
+        <a href="#">Chicago</a>
+      </li>
+      <li>
+        <a href="#">Dallas</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- ============================ SUB HEADER ============================ -->
+  <div class="flex-items center-content">
+    <div id="main-width">
+      <div id="bottom-border" class="flex-items between-content">
+        <h2>Las Vegas</h2>
+        <div>
+          <label>Show Temperature in: </lable>
+            <select>
+              <option>°C</option>
+              <option>°F</option>
+            </select>
+        </div>
+      </div>
+
+      <!--  ============================ MAIN CONTENT ============================ -->
+
+      <div class="flex-items center-content between-content">
+        <div class="weather-panels">
+          <h3>Today</h3>
+          <img src="./images/some_rain.png" alt="some-rain">
+          <p>some rain</p>
+          <div class="flex-items space-content">
+            <p>24°</p>
+            <p>18°</p>
+          </div>
+        </div>
+        <div class="weather-panels">
+          <h3>Today</h3>
+          <img src="./images/some_sun.png" alt="some-sun">
+          <p>some sun</p>
+          <div>
+            <p>27°</p>
+            <p>19°</p>
+          </div>
+        </div>
+        <div class="weather-panels">
+          <h3>Today</h3>
+          <img src="./images/some_clouds.png" alt="some-clouds">
+          <p>some clouds</p>
+          <div>
+            <p>21°</p>
+            <p>16°</p>
+          </div>
+        </div>
+        <div class="weather-panels">
+          <h3>Today</h3>
+          <img src="./images/some_sun.png" alt="some-sun">
+          <p>some sun</p>
+          <div>
+            <p>26°</p>
+            <p>21°</p>
+          </div>
+        </div>
+      </div>
+
+      <!--  ============================ REMOVABLE FOOTER ============================ -->
+
+      <div id="popup" class="main-border flex-items between-content">
+        <img src="./images/cookie.png" alt="edible-cookie">
+        <div>
+          <h4>Stop! Cookie time</h4>
+          <p>We use Cookies (sadly not the edible ones) to personalize <br>
+            content and ads, to provide social media features and to <br>
+            analyse our traffic. <a href="#">Read More...</a>
+          </p>
+        </div>
+        <button>I Accept</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

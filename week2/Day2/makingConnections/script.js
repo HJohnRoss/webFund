@@ -15,11 +15,9 @@ function request(param, type) {
   if (type == "accept") {
     requestText.innerText--
     connectionText.innerText++
-    console.log(requestText)
     changeDiv.remove();
   } else {
     requestText.innerText--
-    console.log(requestText)
     changeDiv.remove();
   }
 }
