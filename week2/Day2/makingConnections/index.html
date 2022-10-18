@@ -77,24 +77,24 @@
         <div class="header">
           <h2><span id="request-change">2</span> Connection Requests</h2>
         </div>
-        <div id="requests-1">
+        <div id="requests1">
           <div class="requests-flex">
             <img src="./Images/phil-s.jpg" alt="pfp-phil">
             <p>Phil S</p>
           </div>
           <div class="requests-flex">
-            <img onclick="acceptRequest1()" src="./Images/accept-circle.png" alt="accept">
-            <img onclick="declineRequest1()" src="./Images/close-circle.png" alt="decline">
+            <img onclick="request('requests1', 'accept')" src="./Images/accept-circle.png" alt="accept">
+            <img onclick="request('requests1', 'decline')" src="./Images/close-circle.png" alt="decline">
           </div>
         </div>
-        <div id="requests-2">
+        <div id="requests2">
           <div class="requests-flex">
             <img src="./Images/todd-s.jpg" alt="">
             <p>Todd E</p>
           </div>
           <div class="requests-flex">
-            <img onclick="acceptRequest2()" src="./Images/accept-circle.png" alt="accept">
-            <img onclick="declineRequest2()" src="./Images/close-circle.png" alt="decline">
+            <img onclick="request('requests2', 'accept')" src="./Images/accept-circle.png" alt="accept">
+            <img onclick="request('requests2', 'close')" src="./Images/close-circle.png" alt="decline">
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@
           <img src="./Images/arry-s.jpg" alt="arry-s">
           <p>Arry S</p>
         </div>
-        <a class="header" href="#">View More</a>
+        <a href="#">View More</a>
       </div>
     </div>
   </div>
