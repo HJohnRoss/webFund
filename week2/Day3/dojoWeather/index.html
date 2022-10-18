@@ -15,13 +15,13 @@
     <h1>DojoWeather</h1>
     <ul>
       <li>
-        <a href="#">Burbank</a>
+        <a onclick="alert('Loading weather report...')" href="#">Burbank</a>
       </li>
       <li>
-        <a href="#">Chicago</a>
+        <a onclick="alert('Loading weather report...')" href="#">Chicago</a>
       </li>
       <li>
-        <a href="#">Dallas</a>
+        <a onclick="alert('Loading weather report...')" href="#">Dallas</a>
       </li>
     </ul>
   </div>
@@ -33,7 +33,7 @@
         <h2>Las Vegas</h2>
         <div>
           <label>Show Temperature in: </lable>
-            <select>
+            <select onchange="chooseTemp(this)">
               <option>°C</option>
               <option>°F</option>
             </select>
@@ -44,46 +44,46 @@
 
       <div class="flex-items center-content between-content">
         <div class="weather-panels">
-          <h3>Today</h3>
+          <h2>Today</h2>
           <img src="./images/some_rain.png" alt="some-rain">
           <p>some rain</p>
           <div class="flex-items space-content">
-            <p>24°</p>
-            <p>18°</p>
+            <p class="text-red"><span class="val">24</span>°</p>
+            <p class="text-blue"><span class="val">18</span>°</p>
           </div>
         </div>
         <div class="weather-panels">
           <h3>Today</h3>
           <img src="./images/some_sun.png" alt="some-sun">
           <p>some sun</p>
-          <div>
-            <p>27°</p>
-            <p>19°</p>
+          <div class="flex-items space-content">
+            <p class="text-red"><span class="val">27</span>°</p>
+            <p class="text-blue"><span class="val">19</span>°</p>
           </div>
         </div>
         <div class="weather-panels">
           <h3>Today</h3>
           <img src="./images/some_clouds.png" alt="some-clouds">
           <p>some clouds</p>
-          <div>
-            <p>21°</p>
-            <p>16°</p>
+          <div class="flex-items space-content">
+            <p class="text-red"><span class="val">21</span>°</p>
+            <p class="text-blue"><span class="val">16</span>°</p>
           </div>
         </div>
         <div class="weather-panels">
           <h3>Today</h3>
           <img src="./images/some_sun.png" alt="some-sun">
           <p>some sun</p>
-          <div>
-            <p>26°</p>
-            <p>21°</p>
+          <div class="flex-items space-content">
+            <p class="text-red"><span class="val">26</span>°</p>
+            <p class="text-blue"><span class="val">21</span>°</p>
           </div>
         </div>
       </div>
 
-      <!--  ============================ REMOVABLE FOOTER ============================ -->
+      <!--  ============================ COOKIE ============================ -->
 
-      <div id="popup" class="main-border flex-items between-content">
+      <div id="popup" class="main-border flex-items space-content items-center">
         <img src="./images/cookie.png" alt="edible-cookie">
         <div>
           <h4>Stop! Cookie time</h4>
@@ -92,7 +92,7 @@
             analyse our traffic. <a href="#">Read More...</a>
           </p>
         </div>
-        <button>I Accept</button>
+        <button onclick="hide('#popup')">I Accept</button>
       </div>
     </div>
   </div>

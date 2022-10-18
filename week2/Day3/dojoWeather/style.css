@@ -1,10 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  font-size: xx-large;
+  font-family: monospace;
 }
 
 #main-width {
-  width: 70%;
+  width: 60%;
 }
 
 a {
@@ -34,13 +36,26 @@ a {
   justify-content: space-between;
 }
 
+.items-center {
+  align-items: center;
+}
+
+.text-red {
+  color: #CF2A27;
+}
+
+.text-blue {
+  color: #2B78E4;
+}
+
 /* ============================ NAVBAR ============================ */
 
 #navbar {
-  background-color: gray;
+  background-color: #9FC5F7;
   padding: 40px;
   justify-content: space-evenly;
   color: #FFFFFF;
+  margin-bottom: 20px;
 }
 
 #navbar ul {
@@ -51,16 +66,26 @@ a {
   align-items: center;
 }
 
+#navbar h1 {
+  font-size: 40pt;
+}
+
 /* ============================ SUB HEADER ============================ */
 
 #bottom-border {
-  border-bottom: 5px solid black;
+  border-bottom: 5px double black;
+  margin-bottom: 25px;
+  padding: 5px;
+}
+
+select {
+  cursor: pointer;
 }
 
 /* ============================ MAIN CONTENT ============================ */
 
 .weather-panels {
-  background-color: #CCCCCC;
+  background-color: #EEEEEE;
   padding: 30px;
   text-align: center;
 }
@@ -68,14 +93,35 @@ a {
 .weather-panels img {
   border-radius: 50%;
   width: 200px;
+  margin-top: 20px;
+}
+
+.weather-panels p {
+  margin: 20px 0px;
 }
 
 /* ============================ REMOVABLE FOOTER ============================ */
 
 #popup {
-  height: 300px;
+  height: 230px;
+  background-color: #EEEEEE;
+  position: fixed;
+  bottom: 10px;
+  width: 60%;
 }
 
 #popup a {
   color: #25669F;
+}
+
+#popup img {
+  width: 100px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #9FC5F7;
+  box-shadow: 3px 3px black;
+  border: 3px black solid;
+  padding: 8px 10px;
 }
