@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.sm-img {
+  height: 20px;
+}
+
+.w-circle {
+  padding: 3px 10px;
+}
