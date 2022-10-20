@@ -41,65 +41,52 @@
 // }
 
 
-var text = document.querySelector('#display')
+var text = document.querySelector('#display');
 var input1 = 0;
 var input2 = 0;
 var operator = 0;
-var eq;
+var operatorRef = {
+  '+': (x, y) => { return x + y },
+  '-': (x, y) => { return x - y },
+  '/': (x, y) => { return x / y },
+  '*': (x, y) => { return x * y }
+}
 
 
 function press(num) {
   if (operator == 0) {
     if (text.innerText == '0') {
-      text.innerText = num
-      input1 = parseInt(text.innerText)
-      console.log(input1)
+      text.innerText = num;
+      input1 = parseFloat(text.innerText);
     } else {
-      text.innerText += num
-      input1 = parseInt(text.innerText)
-      console.log(input1)
+      text.innerText += num;
+      input1 = parseFloat(text.innerText);
     }
   } else {
     if (text.innerText == '0') {
-      text.innerText = num
-      input2 = parseInt(text.innerText)
-      console.log(input2)
+      text.innerText = num;
+      input2 = parseFloat(text.innerText)
     } else {
-      text.innerText += num
-      input2 = parseInt(text.innerText)
-      console.log(input2)
+      text.innerText += num;
+      input2 = parseFloat(text.innerText)
     }
   }
 }
 
 
 function setOP(op) {
-  operator = op
-  console.log(operator)
-  text.innerText = 0
+  operator = op;
+  text.innerText = 0;
 }
 
 function calculate() {
-  // text.innerText = parseInt(input1 + operator + input2) }
-  if (operator == "/") {
-    eq = (input1 / input2)
-    console.log(eq)
-    text.innerText = eq
-  }
-  if (operator == "*") {
-    text.innerText = input1 * input2
-  }
-  if (operator == "-") {
-    text.innerText = input1 - input2
-  } else {
-    text.innerText = input1 + input2
-  }
+  text.innerText = operatorRef[operator](input1, input2)
 }
 
 function clr() {
-  var text = document.querySelector('#display')
-  text.innerText = "0"
-  operator = 0;
+  var text = document.querySelector('#display');
+  text.innerText = "0";
+  operator = 0;;
   input1 = 0;
   input2 = 0;
 }
