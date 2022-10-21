@@ -58,17 +58,21 @@ function press(num) {
     if (text.innerText == '0') {
       text.innerText = num;
       input1 = parseFloat(text.innerText);
+      console.log(input1)
     } else {
       text.innerText += num;
       input1 = parseFloat(text.innerText);
+      console.log(input1)
     }
   } else {
     if (text.innerText == '0') {
       text.innerText = num;
       input2 = parseFloat(text.innerText)
+      console.log(input2)
     } else {
       text.innerText += num;
       input2 = parseFloat(text.innerText)
+      console.log(input2)
     }
   }
 }
@@ -77,10 +81,21 @@ function press(num) {
 function setOP(op) {
   operator = op;
   text.innerText = 0;
+  console.log(op)
 }
 
 function calculate() {
   text.innerText = operatorRef[operator](input1, input2)
+  console.log(text)
+  // if (operator == "/") {
+  //   text.innerText = input1 / input2;
+  // } else if (operator == "*") {
+  //   text.innerText = input1 * input2;
+  // } else if (operator == "-") {
+  //   text.innerText = input1 - input2;
+  // } else {
+  //   text.innerText = input1 + input2;
+  // }
 }
 
 function clr() {
@@ -89,4 +104,5 @@ function clr() {
   operator = 0;;
   input1 = 0;
   input2 = 0;
+  console.log(input1, input2, operator, text)
 }
